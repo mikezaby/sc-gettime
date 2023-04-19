@@ -3,8 +3,6 @@
 const usePerf = (globalThis.performance && globalThis.performance.now);
 const start = usePerf ? performance.now() : Date.now();
 
-console.log(usePerf);
-
 if (!globalThis.crossOriginIsolated) {
   // console.info('> self.crossOriginIsolated', globalThis.crossOriginIsolated || false);
   console.warn(`[@ircam/sc-gettime] Your page is not Cross Origin Isolated. The accuracy of the clock may be reduced by the User-Agent to prevent finger-printing
