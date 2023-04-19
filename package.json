@@ -1,6 +1,6 @@
 {
   "name": "@ircam/sc-gettime",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Benjamin Matuszewski",
   "description": "Unified clock in seconds between node and browser",
   "type": "module",
