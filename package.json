@@ -13,6 +13,7 @@
       "browser": "./src/browser.js"
     }
   },
+  "types": "dist/index.d.ts",
   "scripts": {},
   "license": "BSD-3-Clause"
 }
